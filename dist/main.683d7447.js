@@ -170,7 +170,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '11942' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '4355' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -312,4 +312,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["..\\..\\..\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js","main.js"], null)
-//# sourceMappingURL=/main.2bffb6e4.map
+//# sourceMappingURL=/main.683d7447.map
